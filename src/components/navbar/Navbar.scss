@@ -1,0 +1,36 @@
+@import "../../index.scss";
+
+.navbar {
+  background-color: $dark-blue-clr;
+  display: flex;
+  padding: 5px 30px;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1111;
+  width: 100%;
+
+  .links {
+    list-style: none;
+    margin-right: 10px;
+
+    li {
+      display: inline-block;
+      margin-left: 20px;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.3s;
+
+        &:hover,
+        &.active {
+          color: $dark-grey-clr;
+        }
+      }
+    }
+  }
+}

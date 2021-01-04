@@ -1,0 +1,18 @@
+.toggle-div {
+  position: absolute;
+  background-color: #aaa;
+  padding: 5px;
+  text-align: center;
+  top: 70px;
+  right: 10px;
+  z-index: 222;
+
+  .btn {
+    border: none;
+    padding: 5px 8px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+  }
+}

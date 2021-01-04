@@ -1,0 +1,62 @@
+@import "../../index.scss";
+
+.tour {
+  background-color: $dark-blue-clr;
+  border-radius: 8px;
+  border: 1px solid #222;
+  min-height: 370px;
+
+  .img {
+    position: relative;
+
+    img {
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      width: 100%;
+    }
+    i {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      color: $light-blue-clr;
+      display: none;
+      cursor: pointer;
+    }
+    &:hover {
+      i {
+        display: block;
+      }
+    }
+  }
+
+  .tour-info {
+    padding: 10px;
+
+    h3 {
+      color: #fff;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+      letter-spacing: 2px;
+    }
+    h4 {
+      color: $light-grey-clr;
+      margin-bottom: 5px;
+      letter-spacing: 2px;
+    }
+    p {
+      color: $dark-grey-clr;
+      font-size: 15px;
+      line-height: 1.2;
+    }
+    h5 {
+      font-size: 17px;
+      font-weight: normal;
+      color: #fff;
+      i {
+        color: #fff;
+        cursor: pointer;
+        margin: 5px 0;
+      }
+    }
+  }
+}
